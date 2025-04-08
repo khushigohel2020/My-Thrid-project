@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    height: 50vh;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.item1 {
+    background-color: #00BFFF; /* Light Blue */
+}
+
+.item2 {
+    background-color: #FF4500; /* Orange Red */
+}
+
+.item3 {
+    background-color: #4169E1; /* Royal Blue */
+}
+
+.item4 {
+    background-color: #FFD700; /* Gold */
+}
+
+.item5 {
+    background-color: #800080; /* Purple */
+}
+
+.item6 {
+    background-color: #32CD32; /* Lime Green */
+}
+
+.item7 {
+    background-color: #FF7F50; /* Coral */
+}
+
+.item8 {
+    background-color: #008B8B; /* Dark Cyan */
+}
+
+.item9 {
+    background-color: #8B0000; /* Dark Red */
+}
+
+/* Media Query for screen width less than 658px */
+@media (max-width: 658px) {
+    .item1 {
+        background-color: #FF69B4; /* Hot Pink */
+    }
+    .item2 {
+        background-color: #B22222; /* Fire Brick */
+    }
+    .item3 {
+        background-color: #1E90FF; /* Dodger Blue */
+    }
+    .item4 {
+        background-color: #FFFF00; /* Yellow */
+    }
+    .item5 {
+        background-color: #9370DB; /* Medium Purple */
+    }
+    .item6 {
+        background-color: #90EE90; /* Light Green */
+    }
+    .item7 {
+        background-color: #FFA07A; /* Light Salmon */
+    }
+    .item8 {
+        background-color: #20B2AA; /* Light Sea Green */
+    }
+    .item9 {
+        background-color: #CD5C5C; /* Indian Red */
+    }
+}

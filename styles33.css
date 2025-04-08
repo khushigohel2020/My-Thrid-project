@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+}
+
+.nav-menu {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    list-style-type: none; /* Remove bullet points */
+    padding: 10px 0; /* Add some padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-item a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add padding around links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-item a:hover {
+    background-color: #575757; /* Change background on hover */
+    border-radius: 4PX;
+}
